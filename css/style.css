@@ -1,0 +1,78 @@
+body{
+  font-family: 'Lato', sans-serif;
+  color: #2e3d49;
+  font-weight: 300;
+  background-image: url("../images/p6.png");
+  padding-top: 80px;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.navbar-nav {
+    margin: 7.5px -15px;
+}
+.navbar-default {
+    background-color: #1C1C1C;
+}
+
+.navbar-brand{
+    height:80px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    font-size: large;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:visited {
+    color: #FFF;
+}
+
+h4, .h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+hr {
+    width: 60%;
+    background-color: #fff;
+    border-top: 2px dotted #000;
+    margin-top: 40px;
+}
+
+.img-center{
+    margin:auto;
+}
+.text-muted{
+  color: #BCBBBB;
+}
+
+.text-thin{
+  font-weight: 100;
+}
+
+.title{
+  color:#FFFFFF;
+  font-size: 20px;
+  margin-top:10px;
+}
+.title-super{
+   font-weight:bold;
+ }
+ .sub-title{
+    font-size: 18px;
+ }
+.title-logo{
+  margin-top: 7px;
+}
+
+.frontend-text-block {
+    color: black;
+    font-size: medium;
+}
