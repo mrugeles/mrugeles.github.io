@@ -33,6 +33,10 @@ body{
 .navbar-default .navbar-nav>li>a:visited {
     color: #FFF;
 }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #1C1C1C;
+}
 
 h4, .h4 {
     font-size: 16px;
@@ -46,6 +50,12 @@ hr {
     margin-top: 40px;
 }
 
+.header{
+  display: block;
+}
+.header-mobile{
+  display: none;
+}
 .img-center{
     margin:auto;
 }
@@ -87,4 +97,14 @@ hr {
 
   /* Set width to your desired site width */
   width: 1170px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header{
+      display: none;
+    }
+    .header-mobile{
+      display: block;
+    }
 }

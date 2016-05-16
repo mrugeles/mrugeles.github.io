@@ -4,7 +4,7 @@
       <title>Mario Rugeles - Senior Web Developer</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/sticky-footer-navbar.css">
   </head>
@@ -12,23 +12,27 @@
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <div class="row">
-          <div class="col-md-12 header">
+        <div class="row header">
+          <div class="col-xs-2">
+            <img class="title-logo" src="images/logo.png" alt="logo"/>
+          </div>
+          <div class="col-xs-10 text-right title">
+            <span class="title-super">Mario</span> Rugeles
+            <div class="sub-title">Senior Web Developer</div>
+          </div>
+        </div>
+        <div class="row header-mobile">
+          <div class="col-xs-10 text-center title">
+            <span class="title-super">Mario</span> Rugeles
+            <div class="sub-title">Senior Web Developer</div>
+          </div>
+          <div class="col-xs-2">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-2 header">
-            <img class="title-logo" src="images/logo.png" alt="logo"/>
-          </div>
-          <div class="col-md-10 header text-right title">
-            <span class="title-super">Mario</span> Rugeles
-            <div class="sub-title">Senior Web Developer</div>
           </div>
         </div>
       </div>
@@ -38,7 +42,13 @@
           <li><a href="#">About</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contact</a></li>
-
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">English <img src="images/us.png" alt="Select english languaje" border="0"/></a></li>
+              <li><a href="#">Español <img src="images/co.png" alt="Seleciona idioma español" border="0"/></a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
