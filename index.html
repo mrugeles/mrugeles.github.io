@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="contentApp">
   <head>
       <title>Mario Rugeles - Senior Web Developer</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,8 +7,11 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/sticky-footer-navbar.css">
+      <script src="js/angular.min.js"></script>
+      <script src="js/contentApp/app.js"></script>
+      <script src="js/contentApp/controllers.js"></script>
   </head>
-  <body>
+  <body ng-controller="PageCtrl">
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -60,7 +63,7 @@
             <hr class="hr"/>
         </div>
         <div class="col-md-4 text-center">
-          <h1>Welcome</h1>
+          <h1>Welcome {{lang}}</h1>
 
         </div>
         <div class="col-md-4 text-center">
@@ -69,7 +72,7 @@
         </div>
       </div>
       <div class="row text-center">
-          <div class="col-md-3">
+          <div class="col-md-3 frontend-row-block">
               <a href="" class="frontend-link-block">
                 <img class="img-responsive img-center img-circle" src="images/acda.png" border="0" alt="Science Divulgation">
                 Science Divulgation
@@ -77,7 +80,7 @@
               <!--<div class="frontend-text-block">I'm member of the Colombian Asociation of Astronomic Studies ACDA: A nonprofit organization advocated to promote and divulge Astronomy and related sciences
               </div>-->
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 frontend-row-block">
               <a href="" class="frontend-link-block">
                 <img class="img-responsive img-center img-circle" src="images/web.png" border="0" alt="Portfolio">
                 Portfolio
@@ -86,7 +89,7 @@
                   Project I been involved over the years as a full stack software developer.
               </div>-->
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 frontend-row-block">
               <a href="" class="frontend-link-block">
                 <img class="img-responsive img-center img-circle" src="images/bass.png" border="0" alt="Bass player...#wannabe - Image created by Parker Foote from Noun Project">
                 Bass player...#wannabe
@@ -96,7 +99,7 @@
               </div>-->
               <p><a href="#">Soon...</a></p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 frontend-row-block">
             <a href="" class="frontend-link-block">
               <img class="img-responsive img-center img-circle" src="images/email.png" border="0" alt="Contact">
               Contact
