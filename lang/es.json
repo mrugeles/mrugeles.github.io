@@ -10,5 +10,98 @@
   "science_divulgation_title":"Divulgación Científica",
   "portfolio_title":"Portafolio",
   "bass_title":"Bajista...#wannabe",
-  "contact_title":"Contacto"
+  "contact_title":"Contacto",
+    "content":{
+        "acda":{
+            "title":"Divulgación Científica",
+            "description":"Soy miembro de la Asociación Colombiana de Estudios Astronómicos: Una organización sin ánimo de lucro dedicada a la promoción y divulgación de la astronomía y ciencias afines. Mis actividades en ACDA son las de webmaster y también dar charlas sobre astronomía",
+            "talks":[
+                {
+                    "title":"Charla 1",
+                    "description":"Descripción 1",
+                    "image":"path/to"
+                },
+                {
+                    "title":"Charla 2",
+                    "description":"Descripción 2",
+                    "image":"path/to"
+                },
+                {
+                    "title":"Charla 3",
+                    "description":"Descripción 3",
+                    "image":"path/to"
+                },
+                {
+                    "title":"Charla 4",
+                    "description":"Descripción 4",
+                    "image":"path/to"
+                },
+                {
+                    "title":"Charla 5",
+                    "description":"Descripción 5",
+                    "image":"path/to"
+                },
+                {
+                    "title":"Charla 6",
+                    "description":"Descripción 6",
+                    "image":"path/to"
+                }
+            ]
+        },
+        "portfolio": {
+            "title": "Portafolio",
+            "description": "Proyectos en los que he hecho parte en mi carrera como full stack software developer.",
+            "projects": [
+                {
+                    "title": "Proyecto 1",
+                    "description": "Descripción 1",
+                    "image": "path/to"
+                },
+                {
+                    "title": "Proyecto 2",
+                    "description": "Descripción 2",
+                    "image": "path/to"
+                },
+                {
+                    "title": "Proyecto 3",
+                    "description": "Descripción 3",
+                    "image": "path/to"
+                },
+                {
+                    "title": "Proyecto 4",
+                    "description": "Descripción 4",
+                    "image": "path/to"
+                },
+                {
+                    "title": "Proyecto 5",
+                    "description": "Descripción 5",
+                    "image": "path/to"
+                },
+                {
+                    "title": "Proyecto 6",
+                    "description": "Descripción 6",
+                    "image": "path/to"
+                }
+            ]
+        },
+        "bass": {
+            "title": "Bajista...#wannabe",
+            "description": "Recientemente adquirí un gusto por aprender a tocar el bajo. Espero subir algo decente el un futuro <span style='text-decoration: line-through'>cercano</span>.",
+            "projects": [
+                {
+                    "title": "In the Flesh!",
+                    "mp3": "path/to"
+                },
+                {
+                    "title": "Confortably Numb",
+                    "mp3": "path/to"
+                }
+            ]
+        },
+        "Contact": {
+            "title": "Contacto",
+            "description": "Preguntas, dudas, sugerencias, reclamos (A lo bien??..reclamos??)"
+
+        }
+    }
 }

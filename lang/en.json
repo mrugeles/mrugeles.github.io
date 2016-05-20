@@ -10,5 +10,108 @@
   "science_divulgation_title":"Science Divulgation",
   "portfolio_title":"Portfolio",
   "bass_title":"Bass player...#wannabe",
-  "contact_title":"Contact"
+  "contact_title":"Contact",
+  "content":{
+      "acda":{
+          "title":"Science Divulgation",
+          "description":"I'm member of the Colombian Association of Astronomic Studies ACDA: A nonprofit organization advocated to promote and divulge Astronomy and related sciences. My activities at ACDA are as a webmaster and also giving talks about astronomy and related sciences. Here I list al the talks I've done for ACDA ",
+          "talks":[
+              {
+                  "title":"Talk 1",
+                  "description":"Description 1",
+                  "image":"path/to"
+              },
+              {
+                  "title":"Talk 2",
+                  "description":"Description 2",
+                  "image":"path/to"
+              },
+              {
+                  "title":"Talk 3",
+                  "description":"Description 3",
+                  "image":"path/to"
+              },
+              {
+                  "title":"Talk 4",
+                  "description":"Description 4",
+                  "image":"path/to"
+              },
+              {
+                  "title":"Talk 5",
+                  "description":"Description 5",
+                  "image":"path/to"
+              },
+              {
+                  "title":"Talk 6",
+                  "description":"Description 6",
+                  "image":"path/to"
+              }
+          ]
+      },
+      "portfolio": {
+          "title": "Portfolio",
+          "description": "Project I been involved over the years as a full stack software developer.",
+          "projects": [
+              {
+                  "title": "Project 1",
+                  "description": "Description 1",
+                  "image": "path/to"
+              },
+              {
+                  "title": "Project 2",
+                  "description": "Description 2",
+                  "image": "path/to"
+              },
+              {
+                  "title": "Project 3",
+                  "description": "Description 3",
+                  "image": "path/to"
+              },
+              {
+                  "title": "Project 4",
+                  "description": "Description 4",
+                  "image": "path/to"
+              },
+              {
+                  "title": "Project 5",
+                  "description": "Description 5",
+                  "image": "path/to"
+              },
+              {
+                  "title": "Project 6",
+                  "description": "Description 6",
+                  "image": "path/to"
+              }
+          ]
+        },
+      "bass": {
+          "title": "Bass player...#wannabe",
+          "description": "Recently found a new passion playing bass guitar. I hope to upload something decent in the <span style='text-decoration: line-through'>near</span> future.",
+          "projects": [
+              {
+                  "title": "In the Flesh!",
+                  "mp3": "path/to"
+              },
+              {
+                  "title": "Confortably Numb",
+                  "mp3": "path/to"
+              }
+          ]
+      },
+      "Contact": {
+          "title": "Contact",
+          "description": "Questions, inquiries, suggestions, reclaims (seriously, reclaims??), just contact me.",
+          "projects": [
+              {
+                  "title": "In the Flesh!",
+                  "mp3": "path/to"
+              },
+              {
+                  "title": "Confortably Numb",
+                  "mp3": "path/to"
+              }
+          ]
+      }
+
+  }
 }
