@@ -1,5 +1,7 @@
 'use strict';
 
 var contentApp = angular.module('contentApp', [
-  'contentControllers'
+    'ngSanitize',
+    'btford.markdown',
+    'contentControllers'
 ]);
