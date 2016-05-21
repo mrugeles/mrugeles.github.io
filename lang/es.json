@@ -15,38 +15,63 @@
         "acda":{
             "title":"Divulgación Científica",
             "description":"<p>Soy miembro de la Asociación Colombiana de Estudios Astronómicos: Una organización sin ánimo de lucro dedicada a la promoción y divulgación de la astronomía y ciencias afines. Mis actividades en ACDA son las de webmaster y también dar charlas sobre astronomía</p><p>A continuación hago una lista de las charlas que he realizado para ACDA:</p>",
-            "talks":[
-                {
-                    "title":"Charla 1",
-                    "description":"Descripción 1",
-                    "image":"path/to"
-                },
-                {
-                    "title":"Charla 2",
-                    "description":"Descripción 2",
-                    "image":"path/to"
-                },
-                {
-                    "title":"Charla 3",
-                    "description":"Descripción 3",
-                    "image":"path/to"
-                },
-                {
-                    "title":"Charla 4",
-                    "description":"Descripción 4",
-                    "image":"path/to"
-                },
-                {
-                    "title":"Charla 5",
-                    "description":"Descripción 5",
-                    "image":"path/to"
-                },
-                {
-                    "title":"Charla 6",
-                    "description":"Descripción 6",
-                    "image":"path/to"
-                }
+          "talks":[
+            [
+              {
+                "title":"Misión JUNO",
+                "description":"El nuevo visitante en Jupiter",
+                "image":"images/juno.png"
+              },
+              {
+                "title":"HISTORIA DE LA COSMOLOGÍA",
+                "description":"En esta charla veremos el sinuoso camino recorrido por distintas personas en distintas épocas y culturas hacia la cosmología moderna, como se llegó al conocimiento actual de un Universo en expansión, los agujeros negros,el concepto espacio tiempo y las preguntas aún por responder en esta fascinante área de la ciencia.",
+                "image":"images/cosmology.png"
+              }
+            ],
+            [
+              {
+                "title":"TELECONFERENCIA: LA CIENCIA DE INTERSTELLAR",
+                "description":"Una mirada a los fundamentos científicos de la película Interstellar; el más reciente trabajo del director Christopher Nolan.s",
+                "image":"images/interstellar.png"
+              },
+              {
+                "title":"UN VIAJE POR EL COSMOS DE CARL SAGAN",
+                "description":"Con motivo del lanzamiento de &quot;Cosmos: Una odisea del espacio tiempo&quot;,revisamos la vida y obra de uno de los divulgadores científicos más relevantes de nuestra época, como lo fue Carl Sagan, al igual que una de sus obras más famosas: Cosmos: un viaje personal.",
+                "image":"images/carl-sagan.png"
+              }
+            ],
+            [
+              {
+                "title":"Panel Procecias Mayas: Porque no se va a acabar el mundo en el 2012",
+                "description":"",
+                "image":"images/mayas.png"
+              },
+              {
+                "title":"DESCUBRIENDO NUEVOS MUNDOS",
+                "description":"La historia de cómo hemos llegado a descubrir cientos de planetas en nuestra galaxia. Antecedentes, estado actual y alcances en la búsqueda de exoplanetas",
+                "image":"images/exoplanets.png"
+              }
+            ],
+            [
+              {
+                "title":"Cine Foro: El Ascenso del hombre - Episodio 11: |",
+                "description":"Physics and the clash of the pursuit of absolute vs. imperfect knowledge, and the misgivings of the scientists realizing the terrible outcome of the conflict. Auschwitz. Hiroshima and Nagasaki.",
+                "image":"images/bronowski.png"
+              },
+              {
+                "title":"UNA MIRADA AL GENESIS DE LOS VIAJES INTERESTELARES",
+                "description":"",
+                "image":"images/interstellar-travels.png"
+              }
+            ],
+            [
+              {
+                "title":"Cine Foro: Cosmos - Capítulo 13: Quién habla en nombre de la Tierra?",
+                "description":"",
+                "image":"images/cosmos.png"
+              }
             ]
+          ]
         },
         "portfolio": {
             "title": "Portafolio",
@@ -55,32 +80,32 @@
                 {
                     "title": "Proyecto 1",
                     "description": "Descripción 1",
-                    "image": "path/to"
+                    "image": "images/"
                 },
                 {
                     "title": "Proyecto 2",
                     "description": "Descripción 2",
-                    "image": "path/to"
+                    "image": "images/"
                 },
                 {
                     "title": "Proyecto 3",
                     "description": "Descripción 3",
-                    "image": "path/to"
+                    "image": "images/"
                 },
                 {
                     "title": "Proyecto 4",
                     "description": "Descripción 4",
-                    "image": "path/to"
+                    "image": "images/"
                 },
                 {
                     "title": "Proyecto 5",
                     "description": "Descripción 5",
-                    "image": "path/to"
+                    "image": "images/"
                 },
                 {
                     "title": "Proyecto 6",
                     "description": "Descripción 6",
-                    "image": "path/to"
+                    "image": "images/"
                 }
             ]
         },
@@ -90,11 +115,11 @@
             "projects": [
                 {
                     "title": "In the Flesh!",
-                    "mp3": "path/to"
+                    "mp3": "images/"
                 },
                 {
                     "title": "Confortably Numb",
-                    "mp3": "path/to"
+                    "mp3": "images/"
                 }
             ]
         },

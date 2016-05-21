@@ -16,36 +16,61 @@
           "title":"Science Divulgation",
           "description":"I'm member of the Colombian Association of Astronomic Studies ACDA: A nonprofit organization advocated to promote and divulge Astronomy and related sciences. My activities at ACDA are as a webmaster and also giving talks about astronomy and related sciences.\n\n Here I list al the talks I've done for ACDA ",
           "talks":[
-              {
-                  "title":"Talk 1",
-                  "description":"Description 1",
-                  "image":"path/to"
-              },
-              {
-                  "title":"Talk 2",
-                  "description":"Description 2",
-                  "image":"path/to"
-              },
-              {
-                  "title":"Talk 3",
-                  "description":"Description 3",
-                  "image":"path/to"
-              },
-              {
-                  "title":"Talk 4",
-                  "description":"Description 4",
-                  "image":"path/to"
-              },
-              {
-                  "title":"Talk 5",
-                  "description":"Description 5",
-                  "image":"path/to"
-              },
-              {
-                  "title":"Talk 6",
-                  "description":"Description 6",
-                  "image":"path/to"
-              }
+              [
+                {
+                  "title":"The JUNO Mission",
+                  "description":"The new visitor at Jupiter",
+                  "image":"images/juno.png"
+                },
+                {
+                    "title":"History of Cosmology",
+                    "description":"In this talk we see the sinuous path made by different people at different times and cultures towards modern cosmology, on how we know about the expansion of the universe, black holes, the concept of space time and questions yet to answer in this fascinating field of science.",
+                    "image":"images/cosmology.png"
+                }
+              ],
+              [
+                {
+                    "title":"The science of Interstellar",
+                    "description":"A closer look to the scientific foundations from the movie Interstellar; the most recent work from the acclaimed director Christopher Nolan.s",
+                    "image":"images/interstellar.png"
+                },
+                {
+                    "title":"A journey to the Cosmos of Carl Sagan",
+                    "description":"We revisit the life and work of one of the most relevant science popularizers from our time, as well to his most famous work: Cosmos: A personal Vogage.",
+                    "image":"images/carl-sagan.png"
+                }
+              ],
+              [
+                {
+                  "title":"Mayas Profecies: On why the world will not end on 2012",
+                  "description":"",
+                  "image":"images/mayas.png"
+                },
+                {
+                  "title":"Discovering new worlds",
+                  "description":"On how we humans have discovered hundreds of planets in our galaxy. Background, state of the art and achievements in the search of exoplanets",
+                  "image":"images/exoplanets.png"
+                }
+              ],
+              [
+                {
+                  "title":"Movie Forum: The Ascent of Man - Episode 11: Knowledge or Certainty",
+                  "description":"Physics and the clash of the pursuit of absolute vs. imperfect knowledge, and the misgivings of the scientists realizing the terrible outcome of the conflict. Auschwitz. Hiroshima and Nagasaki.",
+                  "image":"images/bronowski.png"
+                },
+                {
+                  "title":"A look to the genesis of interestellar planets",
+                  "description":"",
+                  "image":"images/interstellar-travels.png"
+                }
+              ],
+              [
+                {
+                  "title":"Movie Forum: Cosmos - Episode 13: Who Speaks for Earth?",
+                  "description":"",
+                  "image":"images/cosmos.png"
+                }
+              ]
           ]
       },
       "portfolio": {
@@ -55,32 +80,32 @@
               {
                   "title": "Project 1",
                   "description": "Description 1",
-                  "image": "path/to"
+                  "image": "images/"
               },
               {
                   "title": "Project 2",
                   "description": "Description 2",
-                  "image": "path/to"
+                  "image": "images/"
               },
               {
                   "title": "Project 3",
                   "description": "Description 3",
-                  "image": "path/to"
+                  "image": "images/"
               },
               {
                   "title": "Project 4",
                   "description": "Description 4",
-                  "image": "path/to"
+                  "image": "images/"
               },
               {
                   "title": "Project 5",
                   "description": "Description 5",
-                  "image": "path/to"
+                  "image": "images/"
               },
               {
                   "title": "Project 6",
                   "description": "Description 6",
-                  "image": "path/to"
+                  "image": "images/"
               }
           ]
         },
@@ -90,11 +115,11 @@
           "projects": [
               {
                   "title": "In the Flesh!",
-                  "mp3": "path/to"
+                  "mp3": "images/"
               },
               {
                   "title": "Confortably Numb",
-                  "mp3": "path/to"
+                  "mp3": "images/"
               }
           ]
       },
@@ -104,11 +129,11 @@
           "projects": [
               {
                   "title": "In the Flesh!",
-                  "mp3": "path/to"
+                  "mp3": "images/"
               },
               {
                   "title": "Confortably Numb",
-                  "mp3": "path/to"
+                  "mp3": "images/"
               }
           ]
       }

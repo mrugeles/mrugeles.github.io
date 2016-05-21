@@ -74,8 +74,8 @@
 
         </div>
       </div>
-      <div class="row text-center">
-          <div class="col-md-3 frontend-row-block">
+      <div class="row text-center row-block">
+          <div class="col-md-3 ">
               <a href="" class="frontend-link-block" data-toggle="modal" data-target="#acdaModal">
                 <img class="img-responsive img-center img-circle" src="images/acda.png" border="0" alt="{{lang.science_divulgation_title}}">
                 {{lang.science_divulgation_title}}
@@ -83,7 +83,7 @@
               <!--<div class="frontend-text-block">I'm member of the Colombian Asociation of Astronomic Studies ACDA: A nonprofit organization advocated to promote and divulge Astronomy and related sciences
               </div>-->
           </div>
-          <div class="col-md-3 frontend-row-block">
+          <div class="col-md-3 ">
               <a href="" class="frontend-link-block">
                 <img class="img-responsive img-center img-circle" src="images/web.png" border="0" alt="{{lang.portfolio_title}}">
                 {{lang.portfolio_title}}
@@ -92,7 +92,7 @@
                   Project I been involved over the years as a full stack software developer.
               </div>-->
           </div>
-          <div class="col-md-3 frontend-row-block">
+          <div class="col-md-3 ">
               <a href="" class="frontend-link-block">
                 <img class="img-responsive img-center img-circle" src="images/bass.png" border="0" alt="{{lang.bass_title}} - Image created by Parker Foote from Noun Project">
                 {{lang.bass_title}}
@@ -102,7 +102,7 @@
               </div>-->
               <p><a href="#">Soon...</a></p>
           </div>
-          <div class="col-md-3 frontend-row-block">
+          <div class="col-md-3 ">
             <a href="" class="frontend-link-block">
               <img class="img-responsive img-center img-circle" src="images/email.png" border="0" alt="{{lang.contact_title}}">
               {{lang.contact_title}}
@@ -145,6 +145,20 @@
               </div>
               <div class="modal-body">
                   <div btf-markdown="lang.content.acda.description">
+                  </div>
+                  <div class="row row-block" ng-repeat="eventRow in lang.content.acda.talks">
+                      <div class="col-md-6" ng-repeat="event in eventRow">
+                          <div class="row">
+                              <div class="col-md-3">
+                                  <img src="{{event.image}}" alt="{{event.title}}">
+                              </div>
+                              <div class="col-md-9">
+                                  {{event.title}}<br/>
+                                  {{event.description}}<br/>
+                              </div>
+                          </div>
+
+                      </div>
                   </div>
               </div>
               <div class="modal-footer">
