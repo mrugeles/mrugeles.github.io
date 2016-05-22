@@ -1,0 +1,17 @@
+<h4 class="modal-title" id="acdaLabel">{{content.acda.title}}</h4>
+<div btf-markdown="content.acda.description">
+</div>
+<div class="row row-block" ng-repeat="eventRow in content.acda.talks">
+    <div class="col-md-6" ng-repeat="event in eventRow">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="{{event.image}}" class="img-thumbnail" alt="{{event.title}}">
+            </div>
+            <div class="col-md-9">
+                <h4>{{event.title}}</h4>
+                {{event.description}}<br/>
+            </div>
+        </div>
+
+    </div>
+</div>
