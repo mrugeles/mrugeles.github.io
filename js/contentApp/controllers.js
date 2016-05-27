@@ -6,11 +6,12 @@ var contentControllers = angular.module('contentControllers', []);
 
 contentControllers.controller('NavCtrl', ['$scope', '$http', '$location', '$rootScope',
   function ($scope, $http, $location, $rootScope) {
-        $scope.currentContent = $location.url().replace('/', '');
         $scope.init = function(){
             $scope.setLang('en');
         }
         $scope.setLang = function(lang){
+            $scope.currentContent = $location.url().replace('/', '');
+            $rootScope.lang = lang;
             $http.get('lang/'+lang+'/menu.json').success(function(data) {
                 $scope.menu = data;
             });
@@ -22,23 +23,26 @@ contentControllers.controller('NavCtrl', ['$scope', '$http', '$location', '$root
         $scope.init();
   } ]);
 
-  contentControllers.controller('HomeCtrl', ['$scope', '$http',
-    function ($scope, $http) {
+  contentControllers.controller('HomeCtrl', ['$scope', '$http', '$rootScope',
+    function ($scope, $http, $rootScope) {
 
     } ]);
-  contentControllers.controller('AcdaCtrl', ['$scope', '$http',
-    function ($scope, $http) {
+  contentControllers.controller('AcdaCtrl', ['$scope', '$http', '$rootScope',
+    function ($scope, $http, $rootScope) {
+        $http.get('lang/'+$rootScope.lang+'/acda.json').success(function(data) {
+            $rootScope.content = data;
+        });
 
     } ]);
-  contentControllers.controller('PortfolioCtrl', ['$scope', '$http',
-    function ($scope, $http) {
+  contentControllers.controller('PortfolioCtrl', ['$scope', '$http', '$rootScope',
+    function ($scope, $http, $rootScope) {
 
     } ]);
-  contentControllers.controller('BassCtrl', ['$scope', '$http',
-    function ($scope, $http) {
+  contentControllers.controller('BassCtrl', ['$scope', '$http', '$rootScope',
+    function ($scope, $http, $rootScope) {
 
     } ]);
-  contentControllers.controller('ContactCtrl', ['$scope', '$http',
-    function ($scope, $http) {
+  contentControllers.controller('ContactCtrl', ['$scope', '$http', '$rootScope',
+    function ($scope, $http, $rootScope) {
 
     } ]);
