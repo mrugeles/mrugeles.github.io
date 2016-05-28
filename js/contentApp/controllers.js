@@ -15,34 +15,17 @@ contentControllers.controller('NavCtrl', ['$scope', '$http', '$location', '$root
             $http.get('lang/'+lang+'/menu.json').success(function(data) {
                 $scope.menu = data;
             });
-            $http.get('lang/'+lang+'/'+$scope.currentContent+'.json').success(function(data) {
-                $rootScope.content = data;
-            });
         }
 
         $scope.init();
   } ]);
 
-  contentControllers.controller('HomeCtrl', ['$scope', '$http', '$rootScope',
-    function ($scope, $http, $rootScope) {
-
-    } ]);
-  contentControllers.controller('AcdaCtrl', ['$scope', '$http', '$rootScope',
-    function ($scope, $http, $rootScope) {
-        $http.get('lang/'+$rootScope.lang+'/acda.json').success(function(data) {
-            $rootScope.content = data;
+  contentControllers.controller('CMSCtrl', ['$scope', '$http', '$routeParams', '$sce',
+    function ($scope, $http, $routeParams,$sce) {
+        $http.get('lang/'+$routeParams.lang+'/'+$routeParams.page+'.json').success(function(data) {
+            $scope.content = data;
+            $scope.view = 'views/'+$routeParams.page+'.html';
         });
-
     } ]);
-  contentControllers.controller('PortfolioCtrl', ['$scope', '$http', '$rootScope',
-    function ($scope, $http, $rootScope) {
 
-    } ]);
-  contentControllers.controller('BassCtrl', ['$scope', '$http', '$rootScope',
-    function ($scope, $http, $rootScope) {
 
-    } ]);
-  contentControllers.controller('ContactCtrl', ['$scope', '$http', '$rootScope',
-    function ($scope, $http, $rootScope) {
-
-    } ]);

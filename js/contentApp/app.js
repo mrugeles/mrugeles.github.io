@@ -15,27 +15,11 @@ contentApp.config(['$routeProvider', '$locationProvider',
     function ($routeProvider, $locationProvider) {
         $locationProvider.html5Mode(false);
         $routeProvider.
-        when('/', {
-          templateUrl: 'views/home.html',
-          controller: 'HomeCtrl'
-        }).
-        when('/acda', {
-          templateUrl: 'views/acda.html',
-          controller: 'AcdaCtrl'
-        }).
-        when('/portfolio', {
-          templateUrl: 'views/portfolio.html',
-          controller: 'PortfolioCtrl'
-        }).
-        when('/bass', {
-          templateUrl: 'views/bass.html',
-          controller: 'BassCtrl'
-        }).
-        when('/contact', {
-          templateUrl: 'views/contact.html',
-          controller: 'ContactCtrl'
+        when('/:lang/:page', {
+          templateUrl: 'views/content.html',
+          controller: 'CMSCtrl'
         }).
         otherwise({
-          redirectTo: '/'
+          redirectTo: '/en/home'
         });
   } ]);
