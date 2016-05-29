@@ -3,7 +3,7 @@
         <hr class="hr"/>
     </div>
     <div class="col-md-4 text-center">
-        <h1>{{lang.welcome}}</h1>
+        <h1>{{content.home.title}}</h1>
 
     </div>
     <div class="col-md-4 text-center">
@@ -13,17 +13,17 @@
 </div>
 <div class="row text-center row-block">
     <div class="col-md-3 ">
-        <a href="#/acda" class="frontend-link-block" data-toggle="modal" data-target="#acdaModal">
-            <img class="img-responsive img-center img-circle" src="images/acda.png" border="0" alt="{{lang.science_divulgation_title}}">
-            {{lang.science_divulgation_title}}
+        <a href="#/{{lang}}/acda" class="frontend-link-block" data-toggle="modal" data-target="#acdaModal">
+            <img class="img-responsive img-center img-circle" src="images/acda.png" border="0" alt="{{content.home.science_divulgation_title}}">
+            {{content.home.science_divulgation_title}}
         </a>
         <!--<div class="frontend-text-block">I'm member of the Colombian Asociation of Astronomic Studies ACDA: A nonprofit organization advocated to promote and divulge Astronomy and related sciences
         </div>-->
     </div>
     <div class="col-md-3 ">
-        <a href="" class="frontend-link-block">
-            <img class="img-responsive img-center img-circle" src="images/web.png" border="0" alt="{{lang.portfolio_title}}">
-            {{lang.portfolio_title}}
+        <a href="#/{{lang}}/portfolio" class="frontend-link-block">
+            <img class="img-responsive img-center img-circle" src="images/web.png" border="0" alt="{{content.home.portfolio_title}}">
+            {{content.home.portfolio_title}}
         </a>
         <!--<div class="frontend-text-block">
             Project I been involved over the years as a full stack software developer.
@@ -31,8 +31,8 @@
     </div>
     <div class="col-md-3 ">
         <a href="" class="frontend-link-block">
-            <img class="img-responsive img-center img-circle" src="images/bass.png" border="0" alt="{{lang.bass_title}} - Image created by Parker Foote from Noun Project">
-            {{lang.bass_title}}
+            <img class="img-responsive img-center img-circle" src="images/bass.png" border="0" alt="{{content.home.bass_title}} - Image created by Parker Foote from Noun Project">
+            {{content.home.bass_title}}
         </a>
         <!--<div class="frontend-text-block">
             Recently found a new passion playing bass guitar. I hope to upload something decent in the <span style="text-decoration: line-through">near</span> future.
@@ -41,8 +41,8 @@
     </div>
     <div class="col-md-3 ">
         <a href="" class="frontend-link-block">
-            <img class="img-responsive img-center img-circle" src="images/email.png" border="0" alt="{{lang.contact_title}}">
-            {{lang.contact_title}}
+            <img class="img-responsive img-center img-circle" src="images/email.png" border="0" alt="{{content.home.contact_title}}">
+            {{content.home.contact_title}}
         </a>
         <!--<div class="frontend-text-block">
             Questions, inquiries, suggestions, reclaims (seriously, reclaims??), just contact me.
